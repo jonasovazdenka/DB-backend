@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-color: #F6EFEF;
+    color: #3D3D3D;
+  }
+
+  .container {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px #BFBFBF;
+  }
+
+  h1 {
+    color: #E67E22;
+    text-align: center;
+  }
+
+  .table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .table th,
+  .table td {
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .table th {
+    background-color: #E5E5E5;
+    color: #666666;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .btn-primary {
+    background-color: #3498DB;
+    color: #FFFFFF;
+  }
+
+  .btn-danger {
+    background-color: #E74C3C;
+    color: #FFFFFF;
+  }
+
+  .add {
+    background-color: #2980B9;
+  }
+
+  .add:hover {
+    background-color: #1F6AA0;
+  }
+
+  .btn-primary:hover {
+    background-color: #217dbb;
+  }
+
+  .btn-danger:hover {
+    background-color: #d62c1a;
+  }
+  .button-group {
+    display: flex;
+  }
+  
+  .button-group > * {
+    margin-right: 10px;
+  }
+  
+  /* ADD */
+  input {
+    border: 0.2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+  }
+   .btn-default{
+    background-color: #BFBFBF;
+    color: #FFF;
+   }
